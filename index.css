@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    width : 100%;
+    height: 100%;
+    overflow : hidden;
+}
+div#container{
+    position : absolute;
+    width : 100%;
+    height: 100%;
+}
+div#left{
+    position : absolute;
+    left : 0;
+    top : 0;
+    width : 15%;
+    height : 100%;
+
+    padding-left : 1em;
+    padding-top : 1em;
+}
+div#right{
+    position : absolute;
+    top : 0;
+    left : 15%;
+    width: 85%;
+    height : 100%;
+}
+iframe{
+    width : 100%;
+    height: 100%;
+    overflow-x : hidden;
+}
+
+ul.menuItem{
+    list-style-type: none;
+    margin-left : 2em;
+}
+ul.menuItem>li{
+    text-decoration:underline;
+    color : blue;
+    cursor : pointer;
+}
